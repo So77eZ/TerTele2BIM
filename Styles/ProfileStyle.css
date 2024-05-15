@@ -1,0 +1,206 @@
+.Navigator {
+  background-color: #ffffff38;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  z-index: 999;
+  display: table;
+  border: 2px solid purple;
+  font-size: 20px;
+  background-color: #ffffff95;
+}
+
+/*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  left: 50px;
+  border: 2px solid black;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sub-items {
+  padding: 10px;
+}
+
+/*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */ /*    */
+
+a:hover {
+  transition: 0.15s ease-in;
+  color: #adadad;
+  /* font-size: 18px; */
+}
+
+.NavigatorUL {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: black;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.MainRefs {
+  color: rgb(255, 255, 255);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+header {
+  /* position: relative; */
+  display: block;
+}
+
+/* #AvatatIMG {
+  position: relative;
+  display: block;
+  /* border-radius: 20px;
+  top: 50px;
+  left: 50px;
+  } 
+*/
+
+.Avatarimg {
+  position: relative;
+  float: left;
+  top: 100px;
+  left: 100px;
+  padding: 17px 20px;
+  background: radial-gradient(
+    circle,
+    rgba(93, 0, 250, 0.5) 0%,
+    rgba(215, 11, 202, 0.5) 100%
+  );
+  border-radius: 15px;
+  border: none;
+}
+
+.personal-info {
+  background-color: rgba(217, 217, 217, 1);
+  padding-right: 10%;
+  padding-left: 30%;
+  padding-top: 5%;
+  /* padding: 0px 25% 0 50%; */
+  /* position: relative; */
+  /* padding: 2%; */
+}
+
+.profile {
+  background: radial-gradient(
+    circle,
+    rgba(93, 0, 250, 0.5) 0%,
+    rgba(215, 11, 202, 0.5) 100%
+  );
+  display: block;
+  position: relative;
+  margin-left: -8px;
+  margin-top: -1px;
+  margin-right: -8px;
+  padding: 0px 150px 0 150px;
+}
+
+.data-block {
+  background-color: rgba(30, 55, 54, 0.21);
+  padding: 15px;
+}
+
+#ProfileNavAvatar {
+  /* background-image: url(../images/v10239_359.png); */
+  display: inline-block;
+  vertical-align: bottom;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  right: 10%;
+}
+
+/* .achievementsBlock {
+}
+
+.eventsBlock {
+} */
+
+.section {
+  position: relative;
+  min-height: 700px;
+  background: url("../src/mainPageBIM.jpg") no-repeat center top;
+  background-size: cover;
+}
+.section:before {
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 150px;
+  content: "МЕЖВУЗОВСКИЙ КАМПУС – БУДУЩЕЕ НАУЧНОГО-ОБРАЗОВАТЕЛЬНОГО РАЗВИТИЯ И ПРЕДПРИНИМАТЕЛЬСТВА";
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 28.95%;
+  height: 254px;
+  background: rgba(208, 208, 208, 0.5);
+}
+
+.buttonLearnMore {
+  top: 410px;
+  display: flex;
+  margin-left: 150px;
+  border-radius: 15px;
+  /* position: relative; */
+  /* vertical-align: middle; */
+  position: absolute;
+  background: radial-gradient(
+    circle,
+    rgba(93, 0, 250, 1) 0%,
+    rgba(215, 11, 202, 1) 100%
+  );
+  width: 191px;
+  height: 32px;
+}
+
+.btnMrText {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* .buttonLearnMore:before {
+  left: 30px;
+  top: 3px;
+} */
